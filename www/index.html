@@ -33,6 +33,11 @@
             for(let i = 0;i<b.length;i++){
               txt += i + ":" + b[i] + "<br>";
             };
+            b.push(45);
+            b.unshift(0);
+            for(let i = 0;i<b.length;i++){
+              txt += i + ":" + b[i] + "<br>";
+            }
             $("#disp2").html(txt);
         }
     </script>
